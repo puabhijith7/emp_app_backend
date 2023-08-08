@@ -13,7 +13,7 @@ import java.util.List;
 @RestController
 @CrossOrigin(origins = "*")
 @RequestMapping("/emp")
-public class Emp_Controller  {
+public class Emp_Controller{
     @Autowired
     private Emp_Service empService;
 
